@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>AGE CALCULATOR</h1>
+    <p class="subtitle">Calculate your exact age in Years, Months, and Days</p>
+
+    <div class="input-section">
+
+        <label>Enter Your Date of Birth</label>
+
+        <div class="input-row">
+            <input type="number" id="day" placeholder="DD">
+            <input type="number" id="month" placeholder="MM">
+            <input type="number" id="year" placeholder="YYYY">
+        </div>
+
+        <button onclick="calculateAge()">CALCULATE AGE</button>
+
+    </div>
+
+    <div class="result-section">
+
+        <h3>YOUR EXACT AGE IS :</h3>
+
+        <div class="result-cards">
+
+            <div class="circle">
+                <h2 id="years">0</h2>
+                <span>YEARS</span>
+            </div>
+
+            <div class="circle">
+                <h2 id="months">0</h2>
+                <span>MONTHS</span>
+            </div>
+
+            <div class="circle">
+                <h2 id="days">0</h2>
+                <span>DAYS</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
